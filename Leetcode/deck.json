@@ -1,0 +1,1818 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "f75a9f32-94f4-11ec-8e2b-1e0039148e51",
+    "deck_config_uuid": "f74c6480-94f4-11ec-8e2b-1e0039148e51",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "f74c6480-94f4-11ec-8e2b-1e0039148e51",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Leetcode",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/two-sum/\">Two Sum</a>",
+                ""
+            ],
+            "guid": "POi9V~5~M1",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "array",
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/best-time-to-buy-and-sell-stock/\">Best Time to Buy and Sell Stock</a>",
+                ""
+            ],
+            "guid": "v(*Zl5L59u",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "array",
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/contains-duplicate/\">Contains Duplicate</a>",
+                ""
+            ],
+            "guid": "u2H]Y0%alR",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "array",
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/product-of-array-except-self/\">Product of Array Except Self</a>",
+                "<center><table class=\"highlighttable\"><tbody><tr><td><div class=\"linenodiv\" style=\"background-color: #f0f0f0; padding-right: 10px\"><pre style=\"line-height: 125%\"> 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18</pre></div></td><td class=\"code\"><div class=\"highlight\" style=\"background: #f8f8f8\"><pre style=\"line-height: 125%\"><span style=\"color: #008000; font-weight: bold\">class</span> <span style=\"color: #0000FF; font-weight: bold\">Solution</span>:\n    <span style=\"color: #008000; font-weight: bold\">def</span> <span style=\"color: #0000FF\">productExceptSelf</span>(<span style=\"color: #008000\">self</span>, nums: List[<span style=\"color: #008000\">int</span>]) <span style=\"color: #666666\">-&gt;</span> List[<span style=\"color: #008000\">int</span>]:\n        <span style=\"color: #008000; font-weight: bold\">if</span> <span style=\"color: #008000\">len</span>(nums) <span style=\"color: #666666\">==</span> <span style=\"color: #666666\">1</span>:\n            <span style=\"color: #008000; font-weight: bold\">return</span> nums\n        \n        temp <span style=\"color: #666666\">=</span> <span style=\"color: #666666\">1</span>\n        prod <span style=\"color: #666666\">=</span> [<span style=\"color: #666666\">1</span> <span style=\"color: #008000; font-weight: bold\">for</span> i <span style=\"color: #AA22FF; font-weight: bold\">in</span> <span style=\"color: #008000\">range</span>(<span style=\"color: #008000\">len</span>(nums))]\n        \n        <span style=\"color: #008000; font-weight: bold\">for</span> i <span style=\"color: #AA22FF; font-weight: bold\">in</span> <span style=\"color: #008000\">range</span>(<span style=\"color: #008000\">len</span>(nums)):\n            prod[i] <span style=\"color: #666666\">=</span> temp\n            temp <span style=\"color: #666666\">*=</span> nums[i]\n\n        temp <span style=\"color: #666666\">=</span> <span style=\"color: #666666\">1</span>\n        <span style=\"color: #008000; font-weight: bold\">for</span> i <span style=\"color: #AA22FF; font-weight: bold\">in</span> <span style=\"color: #008000\">range</span>(<span style=\"color: #008000\">len</span>(nums)<span style=\"color: #666666\">-1</span>, <span style=\"color: #666666\">-1</span>, <span style=\"color: #666666\">-1</span>):\n            prod[i] <span style=\"color: #666666\">*=</span> temp\n            temp <span style=\"color: #666666\">*=</span> nums[i]\n            \n        <span style=\"color: #008000; font-weight: bold\">return</span> prod\n</pre></div>\n</td></tr></tbody></table></center><br>"
+            ],
+            "guid": "GN.5!}U76J",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "array",
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/maximum-subarray/\">Maximum Subarray</a>",
+                ""
+            ],
+            "guid": "ioRm_o+{j(",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "array",
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/maximum-product-subarray/\">Maximum Product Subarray</a>",
+                "<center><table class=\"highlighttable\"><tbody><tr><td><div class=\"linenodiv\" style=\"background-color: #f0f0f0; padding-right: 10px\"><pre style=\"line-height: 125%\"> 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15</pre></div></td><td class=\"code\"><div class=\"highlight\" style=\"background: #f8f8f8\"><pre style=\"line-height: 125%\"><span style=\"color: #008000; font-weight: bold\">class</span> <span style=\"color: #0000FF; font-weight: bold\">Solution</span>:\n    <span style=\"color: #008000; font-weight: bold\">def</span> <span style=\"color: #0000FF\">maxProduct</span>(<span style=\"color: #008000\">self</span>, nums: List[<span style=\"color: #008000\">int</span>]) <span style=\"color: #666666\">-&gt;</span> <span style=\"color: #008000\">int</span>:\n        curr <span style=\"color: #666666\">=</span> nums[<span style=\"color: #666666\">0</span>]\n        curr_min, curr_max <span style=\"color: #666666\">=</span> curr, curr\n        \n        <span style=\"color: #008000; font-weight: bold\">for</span> i <span style=\"color: #AA22FF; font-weight: bold\">in</span> <span style=\"color: #008000\">range</span>(<span style=\"color: #666666\">1</span>, <span style=\"color: #008000\">len</span>(nums)):\n            <span style=\"color: #008000; font-weight: bold\">if</span> nums[i] <span style=\"color: #666666\">&lt;</span> <span style=\"color: #666666\">0</span>:\n                curr_min, curr_max <span style=\"color: #666666\">=</span> curr_max, curr_min\n                \n            curr_max <span style=\"color: #666666\">=</span> <span style=\"color: #008000\">max</span>(nums[i], curr_max<span style=\"color: #666666\">*</span>nums[i])\n            curr_min <span style=\"color: #666666\">=</span> <span style=\"color: #008000\">min</span>(nums[i], curr_min<span style=\"color: #666666\">*</span>nums[i])\n            \n            curr     <span style=\"color: #666666\">=</span> <span style=\"color: #008000\">max</span>(curr, curr_max)\n        \n        <span style=\"color: #008000; font-weight: bold\">return</span> curr\n</pre></div>\n</td></tr></tbody></table></center><br>"
+            ],
+            "guid": "i3[WaO9T{%",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "array",
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/\">Find Minimum in Rotated Sorted Array</a>",
+                "<center><table class=\"highlighttable\"><tbody><tr><td><div class=\"linenodiv\" style=\"background-color: #f0f0f0; padding-right: 10px\"><pre style=\"line-height: 125%\"> 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28</pre></div></td><td class=\"code\"><div class=\"highlight\" style=\"background: #f8f8f8\"><pre style=\"line-height: 125%\"><span style=\"color: #008000; font-weight: bold\">class</span> <span style=\"color: #0000FF; font-weight: bold\">Solution</span>:\n    <span style=\"color: #008000; font-weight: bold\">def</span> <span style=\"color: #0000FF\">findMin</span>(<span style=\"color: #008000\">self</span>, nums: List[<span style=\"color: #008000\">int</span>]) <span style=\"color: #666666\">-&gt;</span> <span style=\"color: #008000\">int</span>:\n        <span style=\"color: #408080; font-style: italic\"># You must write an algorithm that runs in O(log n) time.</span>\n        left <span style=\"color: #666666\">=</span> <span style=\"color: #666666\">0</span>\n        right <span style=\"color: #666666\">=</span> <span style=\"color: #008000\">len</span>(nums) <span style=\"color: #666666\">-</span> <span style=\"color: #666666\">1</span>\n        \n        <span style=\"color: #408080; font-style: italic\"># This is the case where the array has NOT been shifted</span>\n        <span style=\"color: #408080; font-style: italic\"># In other words, it's an ordinary sorted array.</span>\n        <span style=\"color: #008000; font-weight: bold\">if</span> nums[left] <span style=\"color: #666666\">&lt;</span> nums[right]:\n            <span style=\"color: #008000; font-weight: bold\">return</span> nums[left]\n        \n        <span style=\"color: #408080; font-style: italic\"># Standard binary search condition, two pointers: left &amp; right</span>\n        <span style=\"color: #008000; font-weight: bold\">while</span> left <span style=\"color: #666666\">&lt;</span> right:\n            mid <span style=\"color: #666666\">=</span> (left <span style=\"color: #666666\">+</span> right) <span style=\"color: #666666\">//</span> <span style=\"color: #666666\">2</span>\n            \n            <span style=\"color: #408080; font-style: italic\"># When this is true, we have found the smallest element in</span>\n            <span style=\"color: #408080; font-style: italic\"># the sorted-then-shifted array.</span>\n            <span style=\"color: #008000; font-weight: bold\">if</span> nums[mid] <span style=\"color: #666666\">&gt;</span> nums[mid <span style=\"color: #666666\">+</span> <span style=\"color: #666666\">1</span>]:\n                <span style=\"color: #008000; font-weight: bold\">return</span> nums[mid <span style=\"color: #666666\">+</span> <span style=\"color: #666666\">1</span>]\n            \n            <span style=\"color: #408080; font-style: italic\"># If we have not found said element, we iterate in typical</span>\n            <span style=\"color: #408080; font-style: italic\"># binary search fashion</span>\n            <span style=\"color: #008000; font-weight: bold\">if</span> nums[mid] <span style=\"color: #666666\">&gt;</span> nums[right]:\n                left <span style=\"color: #666666\">=</span> mid <span style=\"color: #666666\">+</span> <span style=\"color: #666666\">1</span>\n            <span style=\"color: #008000; font-weight: bold\">else</span>:\n                right <span style=\"color: #666666\">=</span> mid\n                \n        <span style=\"color: #008000; font-weight: bold\">return</span> nums[left]\n</pre></div>\n</td></tr></tbody></table></center><br>"
+            ],
+            "guid": "wzq{L@FS)$",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "array",
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/search-in-rotated-sorted-array/\">Search in Rotated Sorted Array</a>",
+                ""
+            ],
+            "guid": "HY=&Ll$^M$",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "array",
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/3sum/\">3 Sum</a>",
+                ""
+            ],
+            "guid": "E8ufcf#k{p",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "array",
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/container-with-most-water/\">Container With Most Water</a>",
+                ""
+            ],
+            "guid": "Iv]H!sU~Rw",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "array",
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/sum-of-two-integers/\">Sum of Two Integers</a>",
+                ""
+            ],
+            "guid": "z4[>nK7@n^",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/number-of-1-bits/\">Number of 1 Bits</a>",
+                ""
+            ],
+            "guid": "d}.x,Fs/lQ",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/counting-bits/\">Counting Bits</a>",
+                ""
+            ],
+            "guid": "i@j-XA[(J$",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/missing-number/\">Missing Number</a>",
+                ""
+            ],
+            "guid": "n:t<tNC~R_",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/reverse-bits/\">Reverse Bits</a>",
+                ""
+            ],
+            "guid": "kc2_Ftpq?/",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/climbing-stairs/\">Climbing Stairs</a>",
+                ""
+            ],
+            "guid": "J(L}ZKxFhw",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/coin-change/\">Coin Change</a>",
+                ""
+            ],
+            "guid": "B+zGIIZOOh",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/longest-increasing-subsequence/\">Longest Increasing Subsequence</a>",
+                ""
+            ],
+            "guid": "F9*BFk>@Y",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/longest-common-subsequence/\">Longest Common Subsequence</a>",
+                ""
+            ],
+            "guid": "N_Yo5+l#>f",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/word-break/\">Word Break Problem</a>",
+                ""
+            ],
+            "guid": "n03gS50jFq",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/combination-sum-iv/\">Combination Sum</a>",
+                ""
+            ],
+            "guid": "r`6/0<f4M0",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/house-robber/\">House Robber</a>",
+                ""
+            ],
+            "guid": "Ds^M)~iB>o",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/house-robber-ii/\">House Robber II</a>",
+                ""
+            ],
+            "guid": "f:3I$KM8!P",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/decode-ways/\">Decode Ways</a>",
+                ""
+            ],
+            "guid": "m9m=;q1QHI",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/unique-paths/\">Unique Paths</a>",
+                ""
+            ],
+            "guid": "h>^iC(wESm",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/jump-game/\">Jump Game</a>",
+                ""
+            ],
+            "guid": "bzJWic<Q=R",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/clone-graph/\">Clone Graph</a>",
+                ""
+            ],
+            "guid": "x.Q~*_b+S9",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/course-schedule/\">Course Schedule</a>",
+                ""
+            ],
+            "guid": "yU#I7j};b`",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/pacific-atlantic-water-flow/\">Pacific Atlantic Water Flow</a>",
+                ""
+            ],
+            "guid": "nx%`]F-,Ze",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/number-of-islands/\">Number of Islands</a>",
+                ""
+            ],
+            "guid": "by3`Dg_]Ok",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/longest-consecutive-sequence/\">Longest Consecutive Sequence</a>",
+                ""
+            ],
+            "guid": "D|T8cPVb&a",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/alien-dictionary/\">Alien Dictionary</a>",
+                ""
+            ],
+            "guid": "Kw;%A?G%qu",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/graph-valid-tree/\">Graph Valid Tree</a>",
+                ""
+            ],
+            "guid": "j{!u8x5hU8",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/\">Number of Connected Components in an Undirected Graph</a>",
+                ""
+            ],
+            "guid": "b3j6SxYGmS",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/insert-interval/\">Insert Interval</a>",
+                ""
+            ],
+            "guid": "v=[O]P42E}",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/merge-intervals/\">Merge Intervals</a>",
+                ""
+            ],
+            "guid": "g3oiUhX.q_",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/non-overlapping-intervals/\">Non-overlapping Intervals</a>",
+                ""
+            ],
+            "guid": "x]d#g>=T$z",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/meeting-rooms/\">Meeting Rooms</a>",
+                ""
+            ],
+            "guid": "P@?F9063]`",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/meeting-rooms-ii/\">Meeting Rooms II</a>",
+                ""
+            ],
+            "guid": "b;H8/}Rsp*",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/reverse-linked-list/\">Reverse a Linked List</a>",
+                ""
+            ],
+            "guid": "j[wkRo;n>m",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/linked-list-cycle/\">Detect Cycle in a Linked List</a>",
+                ""
+            ],
+            "guid": "Hnv?olM%(z",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/merge-two-sorted-lists/\">Merge Two Sorted Lists</a>",
+                ""
+            ],
+            "guid": "GpOZP{aj(U",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/merge-k-sorted-lists/\">Merge K Sorted Lists</a>",
+                ""
+            ],
+            "guid": "f:/vv2etqy",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/remove-nth-node-from-end-of-list/\">Remove Nth Node From End Of List</a>",
+                ""
+            ],
+            "guid": "u7D(v[pMW!",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/reorder-list/\">Reorder List</a>",
+                ""
+            ],
+            "guid": "z(q_LD)N/h",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/set-matrix-zeroes/\">Set Matrix Zeroes</a>",
+                ""
+            ],
+            "guid": "N,WE~LAIEX",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/spiral-matrix/\">Spiral Matrix</a>",
+                ""
+            ],
+            "guid": "gG$Mn(:u88",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/rotate-image/\">Rotate Image</a>",
+                ""
+            ],
+            "guid": "t9VqIS__*@",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/word-search/\">Word Search</a>",
+                ""
+            ],
+            "guid": "N+5xz!oe<T",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/longest-substring-without-repeating-characters/\">Longest Substring Without Repeating Characters</a>",
+                ""
+            ],
+            "guid": "bw;2Sh~bj",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/longest-repeating-character-replacement/\">Longest Repeating Character Replacement</a>",
+                ""
+            ],
+            "guid": "M75#4#bf~d",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/minimum-window-substring/\">Minimum Window Substring</a>",
+                ""
+            ],
+            "guid": "qS$i6{.hNz",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/valid-anagram/\">Valid Anagram</a>",
+                ""
+            ],
+            "guid": "PJNKDz@Xk!",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/group-anagrams/\">Group Anagrams</a>",
+                ""
+            ],
+            "guid": "xBS`[qzwSH",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/valid-parentheses/\">Valid Parentheses</a>",
+                ""
+            ],
+            "guid": "PjK:E<0jzm",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/valid-palindrome/\">Valid Palindrome</a>",
+                ""
+            ],
+            "guid": "eI95@B{9x9",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/longest-palindromic-substring/\">Longest Palindromic Substring</a>",
+                ""
+            ],
+            "guid": "sM/Uzh!$/9",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/palindromic-substrings/\">Palindromic Substrings</a>",
+                ""
+            ],
+            "guid": "Ke/J*!u[wG",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/encode-and-decode-strings/\">Encode and Decode Strings</a>",
+                ""
+            ],
+            "guid": "GJXY.`{|D%",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/maximum-depth-of-binary-tree/\">Maximum Depth of Binary Tree</a>",
+                ""
+            ],
+            "guid": "K@@xPoUucP",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/same-tree/\">Same Tree</a>",
+                ""
+            ],
+            "guid": "zlztLN(H~I",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/invert-binary-tree/\">Invert/Flip Binary Tree</a>",
+                ""
+            ],
+            "guid": "l)=)#>Yy3J",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/binary-tree-maximum-path-sum/\">Binary Tree Maximum Path Sum</a>",
+                ""
+            ],
+            "guid": "CbJQyU]R=a",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/binary-tree-level-order-traversal/\">Binary Tree Level Order Traversal</a>",
+                ""
+            ],
+            "guid": "n_CSW&[0.<",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/serialize-and-deserialize-binary-tree/\">Serialize and Deserialize Binary Tree</a>",
+                ""
+            ],
+            "guid": "Cb.7~RI8-K",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/subtree-of-another-tree/\">Subtree of Another Tree</a>",
+                ""
+            ],
+            "guid": "f)rG|djF;B",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/\">Construct Binary Tree from Preorder and Inorder Traversal</a>",
+                ""
+            ],
+            "guid": "J2]qojj8bH",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/validate-binary-search-tree/\">Validate Binary Search Tree</a>",
+                ""
+            ],
+            "guid": "vMW6-MVO_<",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/kth-smallest-element-in-a-bst/\">Kth Smallest Element in a BST</a>",
+                ""
+            ],
+            "guid": "r?OuU5poJ#",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/\">Lowest Common Ancestor of BST</a>",
+                ""
+            ],
+            "guid": "B2m6&)z!:*",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/implement-trie-prefix-tree/\">Implement Trie (Prefix Tree)</a>",
+                ""
+            ],
+            "guid": "b1Zg5sor6r",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/add-and-search-word-data-structure-design/\">Add and Search Word</a>",
+                ""
+            ],
+            "guid": "I1^,#S++:v",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/word-search-ii/\">Word Search II</a>",
+                ""
+            ],
+            "guid": "m(w:9(WwVO",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/top-k-frequent-elements/\">Top K Frequent Elements</a>",
+                ""
+            ],
+            "guid": "Ie.6:`0NsT",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/find-median-from-data-stream/\">Find Median from Data Stream</a>",
+                ""
+            ],
+            "guid": "G[246QbZ7N",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "blind-75",
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/add-two-numbers\">Add Two Numbers</a>",
+                ""
+            ],
+            "guid": "f=x1diLSMt",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/median-of-two-sorted-arrays\">Median of Two Sorted Arrays</a>",
+                ""
+            ],
+            "guid": "EOB)S=&V^}",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/regular-expression-matching\">Regular Expression Matching</a>",
+                ""
+            ],
+            "guid": "LLaq;nPsi>",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/letter-combinations-of-a-phone-number/\">Letter Combinations of a Phone Number</a>",
+                ""
+            ],
+            "guid": "I6BX#F`kts",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/remove-nth-node-from-end-of-list/\">Remove Nth Node From End of List</a>",
+                ""
+            ],
+            "guid": "w&tm0bxWd|",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/generate-parentheses\">Generate Parentheses</a>",
+                ""
+            ],
+            "guid": "Ma?@~fE(;=",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/swap-nodes-in-pairs\">Swap Nodes in Pairs</a>",
+                ""
+            ],
+            "guid": "r>f&iO>*(,",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/reverse-nodes-in-k-group\">Reverse Nodes in k-Group</a>",
+                ""
+            ],
+            "guid": "vPM&l`,6uf",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/next-permutation\">Next Permutation</a>",
+                ""
+            ],
+            "guid": "JN)pi|(1&1",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/longest-valid-parentheses\">Longest Valid Parentheses</a>",
+                ""
+            ],
+            "guid": "pZmz#BEZ]E",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/\">Find First and Last Position of Element in Sorted Array</a>",
+                ""
+            ],
+            "guid": "QlF>uVYwi+",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/search-insert-position/\">Search Insert Position</a>",
+                ""
+            ],
+            "guid": "Nv}.rc9)|?",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/first-missing-positive/\">First Missing Positive</a>",
+                ""
+            ],
+            "guid": "C_Xq-oAv4n",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/trapping-rain-water\">Trapping Rain Water</a>",
+                ""
+            ],
+            "guid": "O(gm`Dm9?{",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/jump-game-ii\">Jump Game II</a>",
+                ""
+            ],
+            "guid": "lJ{=j9mlN*",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/permutations\">Permutations</a>",
+                ""
+            ],
+            "guid": "rU}_0In{2)",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/minimum-path-sum\">Minimum Path Sum</a>",
+                ""
+            ],
+            "guid": "NnTJ!^VM",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/edit-distance\">Edit Distance</a>",
+                ""
+            ],
+            "guid": "ukW{WqBi+{",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/search-a-2d-matrix\">Search a 2D Matrix</a>",
+                ""
+            ],
+            "guid": "g7D>h-cmd+",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/sort-colors\">Sort Colors</a>",
+                ""
+            ],
+            "guid": "KvrEt,HZr&",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/subsets\">Subsets</a>",
+                ""
+            ],
+            "guid": "F!H`0Z0zQ|",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/largest-rectangle-in-histogram\">Largest Rectangle in Histogram</a>",
+                ""
+            ],
+            "guid": "P(nxB=W`|)",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/maximal-rectangle\">Maximal Rectangle</a>",
+                ""
+            ],
+            "guid": "AB*S@n[z*x",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/binary-tree-inorder-traversal\">Binary Tree Inorder Traversal</a>",
+                ""
+            ],
+            "guid": "u+sfMc:>`j",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/unique-binary-search-trees\">Unique Binary Search Trees</a>",
+                ""
+            ],
+            "guid": "P;-pj5B2Wp",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/symmetric-tree\">Symmetric Tree</a>",
+                ""
+            ],
+            "guid": "MJh-hu)j%:",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/flatten-binary-tree-to-linked-list\">Flatten Binary Tree to Linked List</a>",
+                ""
+            ],
+            "guid": "C$p.^.?a#",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/word-ladder\">Word Ladder</a>",
+                ""
+            ],
+            "guid": "Rc5yLr+<}J",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/palindrome-partitioning\">Palindrome Partitioning</a>",
+                ""
+            ],
+            "guid": "pS%7/]D]la",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/single-number\">Single Number</a>",
+                ""
+            ],
+            "guid": "opGFM}Nkr/",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/copy-list-with-random-pointer\">Copy List with Random Pointer</a>",
+                ""
+            ],
+            "guid": "BIl5=OAf5b",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/word-break\">Word Break</a>",
+                ""
+            ],
+            "guid": "sRsSfVRfpi",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/linked-list-cycle\">Linked List Cycle</a>",
+                ""
+            ],
+            "guid": "JvoqnhSN2S",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/linked-list-cycle-ii\">Linked List Cycle II</a>",
+                ""
+            ],
+            "guid": "o.nc@)Gs8X",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/lru-cache\">LRU Cache</a>",
+                ""
+            ],
+            "guid": "ls.~8-DJ|Z",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/sort-list\">Sort List</a>",
+                ""
+            ],
+            "guid": "j+`U]sfens",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/min-stack\">Min Stack</a>",
+                ""
+            ],
+            "guid": "Or$W1a<|JT",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/intersection-of-two-linked-lists\">Intersection of Two Linked Lists</a>",
+                ""
+            ],
+            "guid": "Nuh~Ckb|K3",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/majority-element\">Majority Element</a>",
+                ""
+            ],
+            "guid": "Cj!Dx?et$>",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/rotate-array\">Rotate Array</a>",
+                ""
+            ],
+            "guid": "PkETpYd7n,",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/reverse-linked-list\">Reverse Linked List</a>",
+                ""
+            ],
+            "guid": "yWSY$|tlS4",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/course-schedule-ii\">Course Schedule II</a>",
+                ""
+            ],
+            "guid": "fgl!bysuhF",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/kth-largest-element-in-an-array\">Kth Largest Element in an Array</a>",
+                ""
+            ],
+            "guid": "u[Ndg/?sJ_",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/maximal-square\">Maximal Square</a>",
+                ""
+            ],
+            "guid": "iTVeKgE0}A",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/invert-binary-tree\">Invert Binary Tree</a>",
+                ""
+            ],
+            "guid": "O(@Cg1);0R",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/palindrome-linked-list\">Palindrome Linked List</a>",
+                ""
+            ],
+            "guid": "Al_8H_<<4X",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/\">Lowest Common Ancestor of a Binary Tree</a>",
+                ""
+            ],
+            "guid": "_ih,B[?%v",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/sliding-window-maximum\">Sliding Window Maximum</a>",
+                ""
+            ],
+            "guid": "d?X9~k.,+h",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/search-a-2d-matrix-ii\">Search a 2D Matrix II</a>",
+                ""
+            ],
+            "guid": "D+_S|FAZP~",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/perfect-squares\">Perfect Squares</a>",
+                ""
+            ],
+            "guid": "gwS~Ow5b(c",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/move-zeroes\">Move Zeroes</a>",
+                ""
+            ],
+            "guid": "J*6>QMYEg4",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/find-the-duplicate-number\">Find the Duplicate Number</a>",
+                ""
+            ],
+            "guid": "I#p>J?frl/",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/house-robber-iii\">House Robber III</a>",
+                ""
+            ],
+            "guid": "EHws=D]d77",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/decode-string\">Decode String</a>",
+                ""
+            ],
+            "guid": "mX^>>xc_4#",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/partition-equal-subset-sum\">Partition Equal Subset Sum</a>",
+                ""
+            ],
+            "guid": "E(?ZNVqaOf",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/path-sum-iii\">Path Sum III</a>",
+                ""
+            ],
+            "guid": "I2JkQtuclU",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/find-all-anagrams-in-a-string\">Find All Anagrams in a String</a>",
+                ""
+            ],
+            "guid": "d.%`CtdFvL",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/target-sum\">Target Sum</a>",
+                ""
+            ],
+            "guid": "v!-(4yz$f/",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/diameter-of-binary-tree\">Diameter of Binary Tree</a>",
+                ""
+            ],
+            "guid": "AKBJ*Z#Suj",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/subarray-sum-equals-k\">Subarray Sum Equals K</a>",
+                ""
+            ],
+            "guid": "b4|;a+%!h=",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/merge-two-binary-trees\">Merge Two Binary Trees</a>",
+                ""
+            ],
+            "guid": "i!KF5xe?lM",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/daily-temperatures\">Daily Temperatures</a>",
+                ""
+            ],
+            "guid": "u+x>n-$--+",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<a href=\"https://leetcode.com/problems/partition-labels\">Partition Labels</a>",
+                ""
+            ],
+            "guid": "s>.E(6tq&n",
+            "note_model_uuid": "f75ac89a-94f4-11ec-8e2b-1e0039148e51",
+            "tags": [
+                "top-100-liked-leetcode"
+            ]
+        }
+    ]
+}
